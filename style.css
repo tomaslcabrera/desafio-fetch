@@ -1,0 +1,21 @@
+body{
+    background-color: whitesmoke;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 0.07em rgb(0, 0, 0) solid;
+}
+
+.card-body{
+    background-color: rgb(188, 234, 255);
+}
+
+.card-img-top{
+    width: 15em;
+}
+
+.btn{
+    background-color: royalblue;
+    color: wheat;
+}
