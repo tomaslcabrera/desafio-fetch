@@ -17,7 +17,7 @@ const fetchData = async () => {
     modCards(data)
 };
 
-// Agregar los productos al html
+// Agregar los productos a las cards
 const modCards = data => {
     data.forEach(item => {
         templateCard.querySelector('h3').textContent = item.nombre;
